@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="search_text_size">24sp</dimen>
+    <dimen name="audio_text_margin">20dp</dimen>
+    <dimen name="track_name_text_size">24sp</dimen>
+    <dimen name="artist_name_text_size">16sp</dimen>
+    <dimen name="time_box_right_margin">5dp</dimen>
+    <dimen name="time_box_top_margin">15dp</dimen>
+</resources>

@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="0dp"
+                tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editSearch"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="@string/search_edit_text"
+        android:textSize="@dimen/search_text_size"
+        android:singleLine="true"
+        android:background="@color/main_background"
+        android:imeOptions="actionSearch"
+        android:textColorHint="@color/hint_text_color"
+        android:textColor="@color/search_text_color"
+        android:gravity="center"
+        android:drawableRight="@drawable/ic_search"
+        android:textCursorDrawable="@null"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editSearch"
+        android:id="@+id/listAudio"
+        android:background="@color/secondary_background">
+    </ListView>
+</RelativeLayout>
